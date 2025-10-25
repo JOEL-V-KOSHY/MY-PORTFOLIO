@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel V Koshy | Portfolio</title>
+    <style>
+        /* --- General Page Styling --- */
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+        }
+
+        /* --- Navigation Bar --- */
+        nav {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        /* --- Navigation Links --- */
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #0d47a1;
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero img {
+         width: 180px;
+         height: 180px;
+         border-radius: 50%;
+         border: 3px solid #0d47a1;
+         object-fit: cover;
+         margin-bottom: 20px;
+         animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes float {
+        0%, 100% {
+            transform: translateY(0);
+                 }
+        50% {
+            transform: translateY(-10px);
+            }
+        }
+
+       @keyframes glow {
+       0% {
+          box-shadow: 0 0 10px #1565c0, 0 0 20px #42a5f5;
+          }
+       50% {
+          box-shadow: 0 0 20px #42a5f5, 0 0 40px #90caf9;
+           }
+       100% {
+        box-shadow: 0 0 25px #0d47a1, 0 0 50px #42a5f5;
+            }
+       }
+
+        .hero h2 {
+            font-size: 1.8em;
+            color: #0d47a1;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .hero img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 35px #42a5f5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0d47a1;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>My Portfolio</h1><br><br>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <img src="joelpic.png" alt="Joel V Koshy">
+        <h2>Hello, I'm <span style="color:#1565c0;">Joel V Koshy</span></h2>
+        <p>A passionate learner and aspiring AI & Data Analytics developer.</p>
+    </section>
+
+    
+
+<style>
+button:hover {
+  background: #1565c0;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+</style>
+
+    <footer>
+        &copy; 2025 Joel V Koshy | All Rights Reserved
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Joel V Koshy</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+        }
+
+        nav {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #0d47a1;
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .skills-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            color: #0d47a1;
+            margin-bottom: 20px;
+        }
+
+        /* New Skill Card Styles */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+            margin-top: 30px;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            font-size: 18px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 18px rgba(13,71,161,0.6);
+            border: 1px solid rgba(13,71,161,0.6);
+        }
+
+        .skill-icon {
+            width: 28px;
+            height: 28px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0d47a1;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="skills-section">
+        <h1>My Skills</h1>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="skill-icon">
+                Intermediate Python
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" class="skill-icon">
+                Basic Data Analytics
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png" class="skill-icon">
+                Basic Artificial Intelligence
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skill-icon">
+                Basic HTML
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skill-icon">
+                Basic CSS
+            </div>
+
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="skill-icon">
+                Basic JavaScript
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Joel V Koshy | All Rights Reserved
+    </footer>
+
+</body>
+</html>

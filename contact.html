@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Joel V Koshy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+        }
+
+        nav {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #0d47a1;
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .contact-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            color: #0d47a1;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .contact-info p {
+            font-size: 1.1em;
+            margin: 8px 0;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: white;
+            background-color: #0d47a1;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 0 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            background-color: #1565c0;
+        }
+
+        form {
+            background-color: white;
+            width: 90%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #0d47a1;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #1565c0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #0d47a1;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="contact-section">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+            <p><b>Email:</b> joelvkoshy7.ix@gmail.com</p>
+            <p><b>Phone:</b> +91 72198 74438</p>
+            <p><b>Location:</b> Ambernath, Maharashtra, India</p>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/JOEL-V-KOSHY" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="mailto:joelvkoshy7.ix@gmail.com">Email Me</a>
+        </div>
+
+        <br><br>
+
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Joel V Koshy | All Rights Reserved
+    </footer>
+</body>
+</html>
